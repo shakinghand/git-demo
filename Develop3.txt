@@ -1,1 +1,13 @@
 Back to local dev. push to origin, then merge to master, then push master to origin.
+
+Here's what you do:
+
+1. checkout the development branch to make it active.
+2. make changes as needed in the development branch (or whatever branch)
+3. push these to "origin" (github) as required.
+
+Now the local changes are synced with github, and master is behind.
+
+4. To merge: checkout the "master" branch
+5. Merge -> merge to working tree. This gets the develop branch changes into master.
+6. Push master to origin
